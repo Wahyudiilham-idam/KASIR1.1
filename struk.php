@@ -39,6 +39,7 @@ $detail = mysqli_query($koneksi, "SELECT * FROM detail_transaksi WHERE id_transa
     <div class="text-center mt-3">
         <button onclick="window.print()" class="btn btn-dark">Cetak</button>
         <a href="kasir.php" class="btn btn-outline-secondary">Transaksi Baru</a>
+        <a href="logout.php" class="btn btn-danger">logout</a>
     </div>
 </div>
 </body>

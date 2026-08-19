@@ -14,7 +14,8 @@
         <div>
             <a href="riwayat.php" class="btn btn-outline-dark">Riwayat</a>
             <a href="index.php" class="btn btn-outline-secondary">Data Produk</a>
-        </div>
+            <a href="logout.php" class="btn btn-danger">logout></a>
+   </div>
     </div>
 
     <form action="simpan_transaksi.php" method="POST">
